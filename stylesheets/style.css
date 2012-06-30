@@ -18,8 +18,10 @@ h1 {
 	font-size: 1.8em;
 }
 
-#id_imagens img {
+#wrapper img {
 	position: absolute;
+	top: 90px;
+	left: 500px;
 	width: 250px;
 	height: 250px;
 	opacity: 1;
@@ -27,30 +29,33 @@ h1 {
 	box-shadow: 10px 10px 5px #888888;
 }
 
-#id_links ul{
-	float: left;
+#wrapper ul{
+	position: absolute;
+	top: 90px;
+	left: 100px;
 	margin: 15px 00px 0px 329px;
 
 }
 
-#id_links li{
+#wrapper li{
 	margin: 0px 00px 31px 0px;
 	display: block;
 }
 
-#id_links a{
-	color: black;
+#wrapper a{
+	color: white;
 	text-decoration: none;
 	text-align: center;
 	padding: 5px;
-	background: #cccccc;
+	background: #111111;
 	width: 10px;
 	height: 10px;
 	border: 10px solid black;
 
 }
 
-#id_links a:hover {
-	background: black;
-	color: white;
+#wrapper a:hover {
+	background: white;
+	color: black;
+	border: 10px solid white;	
 }
