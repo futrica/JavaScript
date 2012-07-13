@@ -22,10 +22,28 @@ __________________________ Treinamento JavaScript __________________________ */
          
 list =  document.getElementById('wrapper');
 imgs = list.getElementsByTagName('img');  
-//links = list.getElementsByTagName('a')
+//links = list.getElementsByTagName('a');
 
-//imgs[2].style.opacity = 1;
-//document.write(links[1].text)
+
+
+function control(aux) {
+	for (var i = 0; i <5; i++) {
+		imgs[i].style.opacity = 0;		
+	}
+	imgs[aux].style.opacity = 1;
+}
+
+
+
+/* --------------------------------------------------
+		INATIVO
+-----------------------------------------------------
+
+
+
+
+imgs[2].style.opacity = 1;
+document.write(links[1].text);
 
 function troca(num) {	
 	if (num == 0) {
@@ -61,7 +79,9 @@ function troca(num) {
 			}
 }
 
-
+ --------------------------------------------------
+		FIM INATIVO
+-----------------------------------------------------*/ 
 
 
 
@@ -126,4 +146,6 @@ function executaOnclick4(){
      img_aparece[4].opacity = 1;
 }
 
-*/
+ --------------------------------------------------
+		FIM INATIVO
+-----------------------------------------------------*/ 
